@@ -1,0 +1,254 @@
+.logo
+{
+    margin: 20px 0 0 20px;
+    display: inline-block;
+}
+body
+{
+    background-color: #E5E5E5;
+}
+main
+{
+    display: block;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.ingre
+{
+    display: inline-block;
+}
+.texto
+{
+    margin-top: 30px;
+    height: 400px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    color: #0A3871;
+    background-color: #E5E5E5;
+    resize: none;
+    outline: none;
+}
+.texto::placeholder
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    color: #0A3871;
+    
+}
+
+
+.info
+{
+    margin: 8px;
+    font-size: 15px;
+}
+
+.encri
+{
+    background-color: #0A3871;
+    width: 280px;
+    height: 70px;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.encri:hover
+{
+    background-color: #1458aa;
+}
+
+.encri:active
+{
+    background-color: #0d223b;
+}
+
+.desencri
+{
+    margin-left: 30px;
+    width: 280px;
+    height: 70px;
+    color: #0A3871;
+    border-radius: 20px;
+    border-color: #0A3871;
+    background-color: #D8DFE8;
+    font-weight: bold;
+}
+
+.desencri:hover
+{
+    background-color: #edf0f3;
+}
+
+.desencri:active
+{
+    background-color: #b8bfc7;
+}
+
+.res
+{
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    width: 370px;
+    height: 600px;
+    margin-left: 30px;
+    
+}
+
+.resul
+{   
+    width: 360px;
+    height: 400px;
+    position: relative;
+    margin-top: 10px;
+    border: none;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    resize: none;
+    outline: none;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+}
+
+.mensaje
+{
+    font-family: 'Inter';
+    font-style: normal;  
+}
+
+.msj
+{
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+.msj1
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+.copi
+{
+    width: 280px;
+    height: 60px;
+    color: #0A3871;
+    border-radius: 20px;
+    border-color: #0A3871;
+    background-color: #D8DFE8;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 55px;
+    display: none;
+    
+}
+
+.copi:hover
+{
+    background-color: #edf0f3;
+}
+
+.copi:active
+{
+    background-color: #b8bfc7;
+}
+
+/* Responsive*/
+
+@media screen and (max-width:480px)
+{
+    .logo
+    {
+        width: auto;
+        display: block;
+    }
+
+    main
+    {
+        margin: 0 10px 0 10px;
+    }
+    .ingre
+    {
+        display: flexbox;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+    }
+    .texto
+    {
+        height: 400px;
+        width: 310px;
+    }
+
+    .encri
+    {
+        font-size: 20px;
+        margin-bottom: 20px;
+        display: block;
+        width: 310px;
+        height: 60px;
+    }
+    .desencri
+    {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 20px;
+        width: 310px;
+        height: 60px;
+        position: relative;
+    }
+
+    .res
+    {
+        display: flexbox;
+        position: relative;
+        margin-bottom: 30px;
+        width: 310px;
+        height: 220px;
+        
+    }
+    .resul
+    {
+        margin: 0;
+        background-image: none; 
+        width: 300px;
+        height: 100px;
+    }
+    .mensaje
+    {
+        margin: 1px;
+    }
+
+    .copi
+    {
+        margin-top: 5px;
+    }
+    
+}
